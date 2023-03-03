@@ -35,6 +35,7 @@ header{
     justify-content: space-between;
     
 }
+
 .texto-oscuro{
     font-weight: 700;
 }
@@ -49,10 +50,15 @@ section{
     background-color: #EBEBEBEB;
 }
 
+.medios-pago-section{
+    display: flex;
+    flex-direction: row;
+    padding: 164px;
+}
 .cuadro-medios-pago{
     display: flex;
     flex-direction: row;
-    gap: 116px;
+    gap: 100px;
     background-color: white;
 }
 
@@ -64,10 +70,58 @@ section{
 
 .medio-pago{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 16.5px;
 }
 
+.color-ver-mas{
+    color: #3483FA;
+}
 
+.titulo-ofertas{
+    font-size: 25px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.ofertas-section{
+    display: flex;
+    flex-direction: column;
+    gap: 21.19px;
+}
+.ofertas-header{
+    display: flex;
+    flex-direction: row;
+    gap: 16.38px;
+}
+
+.ofertas-container{
+    display: flex;
+    gap: 16px;
+}
+
+.oferta{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+}
+
+.oferta-titulo{
+    font-size: 23px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.oferta-subtitulo{
+    font-size: 14px;
+    font-weight: 400;
+    color: #00A650;
+}
+
+.texto-envio{
+    font-weight: 600;
+}
 
 .footer-container{
     padding: 17px;
