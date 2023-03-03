@@ -123,6 +123,59 @@ section{
     font-weight: 600;
 }
 
+.suscribe-section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.suscribe-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#0c1a51;
+}
+
+.titulo-suscribe{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.texto-oferta{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.texto-descuento{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.texto-descuento-subrayado{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-decoration-line: line-through;
+}
+
+.descripcion-subscribe{
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+
+.suscribe-container{
+    display: flex;
+    flex-direction: row;
+    gap: 74px;
+    align-items: center;
+}
+
+
+
 .footer-container{
     padding: 17px;
 }
