@@ -35,16 +35,55 @@ header{
     justify-content: space-between;
     
 }
-.menu-desplegable{
-    
-}
-
 .texto-oscuro{
     font-weight: 700;
 }
+
 .texto-menu{
     font-size: 13px;
     font-weight: 400;
     color: #333333;
 }
 
+section{
+    background-color: #EBEBEBEB;
+}
+
+.footer-container{
+    padding: 17px;
+}
+
+.cabeza-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.info-legal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-block-end: 33px;
+}
+
+.texto-legal{
+    font-size: 11px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.texto-encabezado{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.borde-footer{
+    border: 1px solid #E6E6E6E6;
+}
+
+.imagenes-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
