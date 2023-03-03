@@ -49,6 +49,26 @@ section{
     background-color: #EBEBEBEB;
 }
 
+.cuadro-medios-pago{
+    display: flex;
+    flex-direction: row;
+    gap: 116px;
+    background-color: white;
+}
+
+.texto-medios-pago{
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}
+
+.medio-pago{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .footer-container{
     padding: 17px;
 }
