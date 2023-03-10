@@ -245,6 +245,8 @@ section{
 .descubre-section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .descubre-container{
@@ -336,6 +338,30 @@ section{
     border-radius: 15%;
 }
 
+.tarjetas-mercado{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.container-mercado{
+    width: 184px;
+    height: 184px;
+    border: 10%;
+    background-color: white;
+}
+
+.principal-supermercado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+.separador{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
 
 
 .footer-container{
