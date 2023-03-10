@@ -20,6 +20,16 @@ header{
     width: 100%;
 }
 
+button{
+    color: white;
+    background-color: #3483FA;
+    border-radius: 2%;
+    width: 96px;
+    height: 36px;
+    border-color: #3483FA;
+    
+}
+
 .logo{
     display: flex;
     padding: 166px;
@@ -82,6 +92,8 @@ section{
     font-size: 25px;
     color: #666666;
     font-weight: 300;
+    padding-top:50px;
+    padding-left: 164px;
 }
 
 .ofertas-section{
@@ -175,13 +187,14 @@ section{
 }
 
 .beneficios-content{
-    
+    margin: 80px;
 }
 
 .beneficios-title{
     font-weight: 300;
     font-size: 25px;
     color: #666666;
+    margin: 80px;
 }
 
 .card-beneficio{
@@ -190,6 +203,7 @@ section{
     gap: 16px;
     width: 384px;
     height: 250px;
+    margin: 21.16;    
     border-radius: 2%;
     justify-content:flex-start;
 }
@@ -225,6 +239,48 @@ section{
     letter-spacing: 0.4px;
 }
 
+.descubre-section{
+    display: flex;
+    flex-direction: column;
+}
+.descubre-container{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.tarjeta-muebles {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 584px;
+    height: 250px;
+    padding-left: 32px;
+    border-radius: 4px;
+}
+
+.titulo-descubre{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30.8px;
+    color: #4B4B4B;
+}
+
+.otro-titulo{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30.8px;
+    color: #4B4B4B;
+}
+
+.encabezado-descubre{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 4px;
+}
 .footer-container{
     padding: 17px;
 }
