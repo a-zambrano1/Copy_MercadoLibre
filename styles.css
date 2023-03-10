@@ -174,7 +174,56 @@ section{
     align-items: center;
 }
 
+.beneficios-content{
+    
+}
 
+.beneficios-title{
+    font-weight: 300;
+    font-size: 25px;
+    color: #666666;
+}
+
+.card-beneficio{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 384px;
+    height: 250px;
+    border-radius: 2%;
+    justify-content:flex-start;
+}
+
+.fondo-disney{
+    background-image: url("/media/disney_benef.png");
+}
+
+.fondo-hbo{
+    background-image: url("/media/hbo_max_benef.png");
+}
+
+.fondo-paramount{
+    background-image: url("/media/paramount_benf.png");
+}
+
+.beneficios-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items:baseline;
+}
+
+.text-beneficios{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.alternative-text-beneficios {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
 
 .footer-container{
     padding: 17px;
