@@ -224,7 +224,10 @@ section{
     display: flex;
     flex-direction: row;
     gap: 16px;
-    align-items:baseline;
+}
+
+.alineado{
+    align-items:flex-end;
 }
 
 .text-beneficios{
@@ -243,6 +246,7 @@ section{
     display: flex;
     flex-direction: column;
 }
+
 .descubre-container{
     display: flex;
     flex-direction: row;
@@ -281,6 +285,59 @@ section{
     line-height: 12px;
     letter-spacing: 4px;
 }
+
+.tiendas-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.tarjeta-tiendas{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 340px;
+    gap: 16px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-tienda{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.banner-tiendas{
+    position: absolute;
+    margin: 245px;
+    padding: 100px;
+}
+
+.ver-tienda{
+    font-size: 15px;
+    font-weight: 600;
+    color: #999999;
+}
+
+.imagenes-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height:70px;
+    gap: 6px;
+}
+
+.borde-imagenes{
+    border: 1px solid gray;
+    border-radius: 15%;
+}
+
+
+
 .footer-container{
     padding: 17px;
 }
