@@ -49,10 +49,11 @@ button{
 
 .logo{
     display: flex;
-    padding: 166px;
     flex-direction: row;
     align-items: center;
-    padding: 12px;    
+    margin-left:166px;
+    margin-bottom:55px;
+    margin-right:52px;
 }
 
 .lista-opciones{
