@@ -15,8 +15,8 @@ body{
 }
 
 header{
-    justify-content: flex-start;
-    align-items: center;
+    display: flex;
+    flex-direction: column;;
     background-color: #FFF159;
     height: 100px;
     width: 100%;
@@ -50,17 +50,22 @@ button{
 .logo{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-left:166px;
-    margin-bottom:55px;
+    margin-bottom: 21px;
     margin-right:52px;
+}
+
+.ubicacion-logo{
+    width: 134px;
+    height: 34px;
+    margin-top: 8px;
+    margin-left: 166px;
 }
 
 .cuadro-busqueda{
     width: 598px;
     height: 39px;
     margin-top: 8px;
-    margin-right: 52px;
+    margin-left: 52px;
     border-radius: 5%;
     border: groove;
 }
@@ -68,10 +73,14 @@ button{
 .lista-opciones{
     display: flex;
     flex-direction: row;
-    margin-top: 21px;
-    gap: 17.8px;
-    justify-content: space-between;
-    
+    gap: 170.27px;
+}
+
+.menu-primera-parte{
+    display: flex;
+    flex-direction: row;
+    gap: 45.35px;
+    margin-left: 187px;
 }
 
 .texto-oscuro{
@@ -79,9 +88,18 @@ button{
 }
 
 .texto-menu{
+    align-items: center;
     font-size: 13px;
     font-weight: 400;
     color: #333333;
+    line-height: 22px;
+    word-spacing: 17.8px;
+}
+
+.ubicacion-ingresar{
+    width: 119.65px;
+    height: 20px;
+    margin-left: 18px;
 }
 
 .medios-pago-section{
