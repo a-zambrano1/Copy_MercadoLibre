@@ -316,6 +316,16 @@ button{
 
 .alineado{
     align-items:flex-end;
+    
+}
+
+.separacion-imagen{
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.separacion-texto{
+    margin-bottom: 32px;
 }
 
 .text-beneficios{
