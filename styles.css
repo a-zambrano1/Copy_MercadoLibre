@@ -11,7 +11,7 @@
 
 body{
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
 }
 
 header{
@@ -29,6 +29,12 @@ main{
     align-items: center;    
     background-color: #EBEBEBEB;
 
+}
+
+section{
+    width: 1200px;
+    margin: 45px;
+    padding: -10%;
 }
 
 button{
@@ -67,13 +73,6 @@ button{
     color: #333333;
 }
 
-section{
-    width: 1200px;
-    margin: 60px;
-    padding: -10%;
-}
-
-
 .medios-pago-section{
     display: flex;
     flex-direction: row;
@@ -107,18 +106,21 @@ section{
     font-size: 25px;
     color: #666666;
     font-weight: 300;
+    margin-bottom: 21.19px;
     padding-top:50px;
-    padding-left: 164px;
 }
 
 .ofertas-section{
     display: flex;
     flex-direction: column;
-    gap: 21.19px;
+    
 }
+
 .ofertas-header{
     display: flex;
     flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
     gap: 16.38px;
 }
 
@@ -163,6 +165,10 @@ section{
     background-color:#0c1a51;
 }
 
+.suscribe-info{
+    margin: 24px;
+    
+}
 .titulo-suscribe{
     font-size: 25px;
     font-weight: 600;
@@ -356,6 +362,7 @@ section{
 .tarjetas-mercado{
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap: 16px;
 }
 
@@ -363,6 +370,7 @@ section{
     width: 184px;
     height: 184px;
     border: 10%;
+    margin-bottom: 8px;
     background-color: white;
 }
 
@@ -378,6 +386,31 @@ section{
     gap: 16px;
 }
 
+.super-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 42px;
+    margin-left: 25px;
+    margin-bottom: 24px;
+
+}
+
+.titulo-super{
+    display: flex;
+    flex-direction: row;
+    gap: 6.8px;
+}
+
+.texto-supermercado{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #666666;
+    margin-bottom: 21.19px;
+    padding-top:50px;
+}
 
 .footer-container{
     padding: 17px;
