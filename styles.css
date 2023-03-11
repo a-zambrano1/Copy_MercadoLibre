@@ -15,9 +15,20 @@ body{
 }
 
 header{
+    justify-content: flex-start;
+    align-items: center;
     background-color: #FFF159;
     height: 100px;
     width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #EBEBEBEB;
+
 }
 
 button{
@@ -57,14 +68,18 @@ button{
 }
 
 section{
-    background-color: #EBEBEBEB;
+    width: 1200px;
+    margin: 60px;
+    padding: -10%;
 }
+
 
 .medios-pago-section{
     display: flex;
     flex-direction: row;
     padding: 164px;
 }
+
 .cuadro-medios-pago{
     display: flex;
     flex-direction: row;
